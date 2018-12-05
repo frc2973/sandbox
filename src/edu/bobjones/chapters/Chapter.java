@@ -4,7 +4,7 @@ import edu.bobjones.Setting;
 
 public abstract class Chapter {
 	private final Chapter nextChapter;
-	private final Setting setting;
+	protected final Setting setting;
 	
 	public Chapter(Setting setting, Chapter nextChapter) {
 		this.setting = setting;
